@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petit-déjeuner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="menu-left">
+                <a href="#" id="produits-link">Les Produits</a>
+                <a href="#" id="fournil-link">Le Fournil d'Or</a>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/Logo-Boulangerie.png" alt="logo Boulangerie" class="logo-img">
+                </a>
+            </div>
+            
+            <div class="menu-right">
+                <form id="search-form" action="#" method="get">
+                    <input type="text" id="search-input" placeholder="Recherche...">
+                    <button type="submit" id="search-button">
+                        <img src="assets/icons/loupe.png" alt="Rechercher" class="search-icon">
+                    </button>
+                </form>
+                <a href="#" id="login-link">
+                    <img src="assets/icons/user-regular-24.png" alt="Login" class="login-icon">
+                </a>
+            </div>
+        </div>
+    </header>
+       <!-- Modale pour Les Produits -->
+       <div id="produits-modal" class="modal">
+        <div class="modal-content">
+            <div class="categories">
+                <ul>
+                    <h3>Petit-déjeuner</h3>
+                    <ul>
+                    <li><a href="petit-dejeuner.html#viennoiserie">Viennoiserie</a></li>
+                    <li><a href="petit-dejeuner.html#mini-viennoiseries">Mini viennoiseries</a></li>
+                    <li><a href="petit-dejeuner.html#brunch">Brunch</a></li>
+                    <li><a href="petit-dejeuner.html#a-partager">A partager</a></li>
+                    <li><a href="petit-dejeuner.html#boissons">Boissons</a></li>
+                </ul>
+            </div>
+
+            <div class="categories">
+                <h3>Pâtisseries</h3>
+                <ul>
+                    <li><a href="patisserie.html#tartes-et-gateaux">Tartes & Gâteaux</a></li>
+                    <li><a href="patisserie.html#patisseries-individuelles">Patisseries individuelles</a></li>
+                    <li><a href="patisserie.html#macarons">Macarons</a></li>
+                    <li><a href="patisserie.html#buches">Buches</a></li>
+                    <li><a href="patisserie.html#galettes">Galettes</a></li>
+                    <li><a href="patisserie.html#autres-desserts">Autres desserts</a></li>
+                </ul>
+            </div>
+
+            <div class="categories">    
+                <h3>Déjeuner</h3>
+                <ul>
+                    <li><a href="dejeuner.html#sandwichs">Sandwichs</a></li>
+                    <li><a href="dejeuner.html#quiches-et-pizzas">Quiches & Pizzas</a></li>
+                    <li><a href="dejeuner.html#salades">Salades</a></li>
+                    <li><a href="dejeuner.html#snacking">Snacking</a></li>
+                </ul>
+            </div>
+            
+            <div class="categories">                    
+                <h3>Boissons</h3>
+                <ul>
+                    <li><a href="boissons.html#froides">Froides</a></li>
+                    <li><a href="boissons.html#chaudes">Chaudes</a></li>
+                    <li><a href="boissons.html">Glacées</a></li>
+                </ul>
+            </div>
+
+            <div class="categories">                    
+                <h3>Cocktails et Appéritifs</h3>
+                <ul>
+                    <li><a href="cocktails.html#plateaux-salades">Plateaux salés</a></li>
+                    <li><a href="cocktails.html#pains-surprise">Pains surprise</a></li>
+                    <li><a href="cocktails.html#plateaux-sucres">Plateaux sucrés</a></li>
+                    <li><a href="cocktails.html#macarons">Macarons</a></li>
+                </ul>
+            </div>
+
+            <div class="categories">                    
+                <h3>Collection festive</h3>
+                <ul>
+                    <li><a href="collection.html#les-buches-de-noel">Les bûches de Noël</a></li>
+                    <li><a href="collection.html#le-traiteur-sucree">Le traiteur sucré</a></li>
+                    <li><a href="collection.html#le-traiteur-aperitif">Le traiteur apéritif</a></li>
+                    <li><a href="collection.html#les-galettes">Les galettes</a></li>
+                </ul>
+            </div>
+
+            <div class="categories">                    
+                <h3>Pains</h3>
+                <ul>
+                    <li><a href="pains.html#classiques">Classiques</a></li>
+                    <li><a href="pains.html#speciaux">Spéciaux</a></li>
+                    <li><a href="pains.html#snacking">Snacking</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Modale pour Le Fournil d'Or -->
+    <div id="fournil-modal" class="modal">
+        <div class="modal-content">
+            <div class="categories">
+                <ul>
+                    <li><a href="journal.html#journal">Journal</a></li>
+                    <li><a href="journal.html#notre-histoire">Notre Histoire</a></li>
+                <li><a href="journal.html#nos-engagements">Nos engagements</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="vignette-1">
+                <a href="petit-dejeuner.html">
+                <img src="assets/icons/Viennoiserie.webp" alt="Viennoiserie" class="hero-img">
+            </a>
+                <h4>Petit-déjeuner</h4>
+            </div>
+
+            <div class="vignette-2">
+                <a href="dejeuner.html">
+                <img src="assets/icons/SandwichsetSalades.webp" alt="Sandwichs & Salades" class="hero-img">
+            </a>
+                <h4>Déjeuner</h4>
+            </div>
+
+            <div class="vignette-3">
+                <a href="cocktails.html">
+                <img src="assets/icons/Traiteur.webp" alt="Traiteur" class="hero-img">
+            </a>
+                <h4>Cocktails et Appéritifs</h4>
+            </div>
+
+            <div class="vignette-4">
+                <a href="pains.html">
+                <img src="assets/icons/Pains.webp" alt="Pains" class="hero-img">
+            </a>
+                <h4>Pains</h4>
+            </div>
+
+            <div class="vignette-5">
+                <a href="patisserie.html">
+                <img src="assets/icons/Patisserie.webp" alt="Pâtisseries" class="hero-img">
+            </a>
+                <h4>Pâtisseries</h4>
+            </div>
+
+            <div class="vignette-6">
+                <a href="boissons.html">
+                <img src="assets/icons/Boissons.webp" alt="Boissons" class="hero-img">
+            </a>
+                <h4>Boissons</h4>
+            </div>
+
+            <div class="vignette-7">
+                <a href="collection.html">
+                <img src="assets/icons/buche.webp" alt="Collection festive" class="hero-img">
+            </a>
+                <h4>Collection festive</h4>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section-card">
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/pain-chocolat.webp" alt="Pain chocolat">
+                <button data-id="1">Voir la fiche</button>
+            </div>
+            <h4>Le pain au chocolat</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/croissant.webp" alt="Croissant">
+                <button data-id="2">Voir la fiche</button>
+            </div>
+            <h4>Le croissant</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/brioche-choco.webp" alt="Brioche chocolat">
+                <button data-id="3">Voir la fiche</button>
+            </div>
+            <h4>La brioche sucrée chocolat</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/suisse.webp" alt="La gourmandise">
+                <button data-id="4">Voir la fiche</button>
+            </div>
+            <h4>La gourmandise</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/feuillete-choco-noisette.webp" alt="Feuilleté choco noisette">
+                <button data-id="5">Voir la fiche</button>
+            </div>
+            <h4>Le panier feuilleté choco-noisette</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/pain-choco-amandes.webp" alt="Pain choco amandes">
+                <button data-id="6">Voir la fiche</button>
+            </div>
+            <h4>Le pain au chocolat amandes</h4>
+            </div>
+        </div>
+        
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/croissant-amandes.webp" alt="Croissant aux amandes">
+                <button data-id="7">Voir la fiche</button>
+            </div>
+            <h4>Le croissant aux amandes</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/grille-pommes.webp" alt="Grillé pommes">
+                <button data-id="8">Voir la fiche</button>
+            </div>
+            <h4>Le grillé aux pommes</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/escargot-aux-raisins.webp" alt="Escargot aux raisins">
+                <button data-id="9">Voir la fiche</button>
+            </div>
+            <h4>L'escargot aux raisins</h4>
+            </div>
+        </div>
+
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/palmier.webp" alt="Palmier">
+                <button data-id="10">Voir la fiche</button>
+            </div>
+            <h4>Le palmier</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/chausson-pommes.webp" alt="Le chausson aux pommes">
+                <button data-id="11">Voir la fiche</button>
+            </div>
+            <h4>Le chausson aux pommes</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/viennoise-choco.webp" alt="La viennoise au chocolat">
+                <button data-id="12">Voir la fiche</button>
+            </div>
+            <h4>La viennoise au chocolat</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/viennoise-pepites-choco-blanc.webp" alt="La viennoise aux pépites de chocolat blanc">
+                <button data-id="13">Voir la fiche</button>
+            </div>
+            <h4>La viennoise aux pépites de chocolat blanc</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/beignet-choco.webp" alt="Le beignet au chocolat">
+                <button data-id="14">Voir la fiche</button>
+            </div>
+            <h4>Le beignet au chocolat</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/beignet-framboise.webp" alt="Le beignet aux framboises">
+                <button data-id="15">Voir la fiche</button>
+            </div>
+            <h4>Le beignet aux framboises</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card">
+            <div class="card-img">
+                <img src="assets/image/petit-dejeuner/beignet-pommes.webp" alt="Le beignet aux pommes">
+                <button data-id="16">Voir la fiche</button>
+            </div>
+            <h4>Le beignet aux pommes</h4>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
