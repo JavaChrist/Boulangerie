@@ -15,8 +15,8 @@ body {
 }
 
 .product-image img {
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     border-radius: 8px;
 }
 
@@ -74,7 +74,7 @@ body {
     background-color: #e0e0e0;
 }
 
-.modal {
+.product-modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -90,6 +90,7 @@ body {
 .modal-content {
     padding: 20px;
     text-align: left;
+    width: 100%;
 }
 
 .close-button {
