@@ -1,219 +1,234 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid grey; 
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  width: 100%;
 }
 
-.menu-left, .menu-right     {
-    display: flex;
-    gap: 30px;
-    margin-right: 40px;
-    margin-left: 40px;
+.menu-left,
+.menu-right {
+  display: flex;
+  gap: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
-.menu-left a, .menu-right a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
+.menu-left a,
+.menu-right a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .modal {
-    display: none;
-    position: absolute;
-    top: 100%;
-    background-color: #fefefe00;
-    width: auto;
-    padding: 20px;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #fefefe00;
+  width: auto;
+  padding: 20px;
+  z-index: 1;
 }
 
 .modal-content {
-    background-color: #fefefe00;
-    margin: 15% auto;
-    padding: 20px;
-    width: 80%;
+  background-color: #fefefe00;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
 }
 
 .modal-content h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .logo-img {
-    height: 100px;
+  height: 100px;
 }
 
 .modal-content ul {
-    list-style-type: none;
-    margin-bottom: 20px;
+  list-style-type: none;
+  margin-bottom: 20px;
 }
 
 .modal-content ul li {
-    margin-left: 20px;
-    margin-bottom: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .modal-content ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .login-icon {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 #search-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 0 4px 4px 0;
-    outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 0 4px 4px 0;
+  outline: none;
 }
 
 #produits-modal {
-    position: absolute;
-    top: 80px;
-    left: 20px;
-    background-color: #f6f6e1;
-    width: auto;
-    padding: 50px;
-    z-index: 1;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  background-color: #f6f6e1;
+  width: auto;
+  padding: 50px;
+  z-index: 1;
 }
 
 #produits-modal .modal-content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 #produits-modal .modal-content .category {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 #produits-modal .modal-content .category h3 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 #produits-modal .modal-content .category ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 #fournil-modal {
-    position: absolute;
-    top: 80px;
-    left: 20px;
-    background-color: #f6f6e1;
-    width: 250px;
-    padding-top: 50px;
-    padding-left: 0px;
-    z-index: 2;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  background-color: #f6f6e1;
+  width: 250px;
+  padding-top: 50px;
+  padding-left: 0px;
+  z-index: 2;
 }
 
 #fournil-modal .modal-content {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .hero-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 20px 40px;
-    border-bottom: 1px solid grey; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px 40px;
+  border-bottom: 1px solid grey;
 }
 
-.vignette-1, .vignette-2, .vignette-3, .vignette-4, .vignette-5, .vignette-6, .vignette-7 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.vignette-1,
+.vignette-2,
+.vignette-3,
+.vignette-4,
+.vignette-5,
+.vignette-6,
+.vignette-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-img {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .hero-img:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
 }
 .hero-content h4 {
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .section-card {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px;
 }
 
 .card-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .card-content img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
 }
 
 .card-content button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .card-content:hover button {
-    display: block;
+  display: block;
 }
 
 .card-content:hover {
-    border: 2px solid grey;
-    border-radius: 10px;
+  border: 2px solid grey;
+  border-radius: 10px;
 }
 .card-content h4 {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.product-icon {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 20px;
 }

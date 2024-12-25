@@ -17,12 +17,20 @@ fetch('produits.json')
             // Mettre à jour le contenu de la page avec les détails du produit
             document.getElementById('product-name').textContent = product.name;
             document.getElementById('product-image').src = product.image;
+
+            // Ajouter l'icône avant l'info
+            const iconElement = document.createElement('img');
+            iconElement.src = product.image2; // Utiliser l'icône du produit
+            iconElement.alt = 'Icône végétarien';
+            iconElement.classList.add('product-icon');
+            document.getElementById('product-info').before(iconElement);
+
             document.getElementById('product-info').textContent = product.info;
             document.getElementById('product-description').innerHTML = product.description.replace(/\\n/g, '<br>');
 
             const modalText = document.getElementById('modal-text');
 
-            document.getElementById('composition-link').addEventListener('click', function() {
+            document.getElementById('composition-link').addEventListener('click', function () {
                 const composition = product.composition;
                 let tableHtml = `<strong>${composition.description}</strong><br><table>`;
 
@@ -37,10 +45,10 @@ fetch('produits.json')
                 tableHtml += '</table>';
                 modalText.innerHTML = tableHtml;
             });
-            document.getElementById('allergenes-link').addEventListener('click', function() {
+            document.getElementById('allergenes-link').addEventListener('click', function () {
                 modalText.innerHTML = 'Allergènes: ' + product.allergenes.replace(/\\n/g, '<br>');
             });
-            document.getElementById('conservation-link').addEventListener('click', function() {
+            document.getElementById('conservation-link').addEventListener('click', function () {
                 modalText.innerHTML = 'Conservation: ' + product.conservation.replace(/\\n/g, '<br>');
             });
         } else {
@@ -50,14 +58,14 @@ fetch('produits.json')
     })
     .catch(error => console.error('Erreur lors du chargement des produits:', error));
 
-    document.getElementById('product-info-button').addEventListener('click', function() {
+document.getElementById('product-info-button').addEventListener('click', function () {
     document.getElementById('product-modal').style.display = 'block';
-    });
+});
 
-    window.addEventListener('click', function(event) {
+window.addEventListener('click', function (event) {
     const modal = document.getElementById('product-modal');
     const modalContent = document.querySelector('.modal-content');
     if (event.target == modal) {
         modal.style.display = 'none';
     }
-    });
+});
