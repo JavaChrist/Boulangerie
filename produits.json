@@ -388,7 +388,7 @@
     "name": "La viennoise aux pépites de chocolat blanc",
     "info": "Végétarien",
     "description": "Une pure gourmandise\\n\\nQu'on se le dise, ce petit pain ne se partage pas, et pour une fois, vous n'aurez aucun complexe à ne penser qu'à vous ! Parce qu'il est trooop bon ! La mie blanche du petit pain est toute tendre et moelleuse et légèrement dorée sur le dessus. Et caché au cœur de la mie, vous aurez la surprise de sentir un peu de croquant. Des chunks chocolat blanc (c'est-à-dire de grosses pépites de chocolat blanc) à croquer délicatement avant de les laisser fondre…\\n\\nEt comme cette viennoiserie au chocolat blanc se déguste aussi bien au petit-déjeuner qu'en encas tout au long de la journée ou pour le goûter, on n'a pas fini de se régaler ! Hum… vous nous en direz des nouvelles !",
-    "image": "assets/image/petit-dejeuner/viennoise-pepites-choco-blanc.webp",
+    "image": "assets/image/petit-dejeuner/vien-pain_au_lait_choco_blanc.webp" ,
     "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
       "description": "Les viennoises sont composées de farine, d'eau, de sucre, de beurre, de sel, de lait, et de pépites de chocolat blanc.",
@@ -1273,11 +1273,11 @@
 
   {
     "id": 40,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le paulisson rosette",
+    "info": "",
+    "description": "Un petit pain aux saveurs contrastées.\\n\\nCe petit pain au lait est-il un paulisson ou un polisson ? Les deux ! Car ce coquin aime les surprises : le petit pain au lait est ultra moelleux et propose une saveur légèrement sucrée. Il est beurré, et vous découvrirez de la délicieuse rosette coupée en fines tranches à l’intérieur. Elle est accompagnée de lamelles de cornichons qui ajoute sa texture croquante et tendre à la fois, et rehausse la rosette avec son goût acide et salé. Un mariage parfait !",
+    "image": "assets/image/dejeuner/Le paulisson a la rosette.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -1306,13 +1306,13 @@
 
   {
     "id": 41,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich atlantique",
+    "info": "",
+    "description": "Ce sandwich associe délicatement le saumon, le citron et les saveurs subtiles de noisettes avec les graines de sésame, tout en restant équilibré grâce à sa tartinade au citron.",
+    "image": "assets/image/dejeuner/Le sandwich atlantique.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1339,13 +1339,13 @@
 
   {
     "id": 42,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
+    "name": "Le sandwich dieppois",
+    "info": "",
+    "description": "Le dieppois, c’est un sandwich au thon version Fournil d'Or, qui propose un mélange de thon citronné et de mayonnaise allégée. Il est complet et équilibré puisqu’il est aussi garni de feuilles de salade et de tranches de tomates.\\n\\nCroquer dans un sandwich dieppois avec sa croûte croustillante, c’est faire une expérience immersive : vous voilà à Dieppe ou sur une côte française, l’iode vous stimule et lorsque à la première bouchée vous découvrez le thon fondant et acidulé par la pointe citronnée, vous vous évadez !\\n\\nLéger et nourrissant à la fois, le dieppois vous enivre de sa fraîcheur marine. Et d’ailleurs les clients du Fournil d'Or ne s’y trompent pas puisqu’ils sont très nombreux à venir expressément pour cette recette !",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le Dieppois est fait à partir d'une baguette composée d'une mayonnaise allégée, thon, feuilles de salade et rondelles de tomate.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1372,13 +1372,13 @@
 
   {
     "id": 43,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le sandwich curcuma falafels",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "Un sandwich oriental savoureux.\\n\\nCe sandwich joliment coloré nous fait voyager grâce à ses saveurs orientales. Avez-vous remarqué la jolie teinte du pain, coloré par le curcuma ? Le pain est plus moelleux que nos baguettes habituelles grâce au flocon de pomme de terre utilisée dans la recette. Il est aussi parsemé de sésame noir qui ajoute un peu de croquant à la croute délicatement grillée.\\n\\nÀ l’intérieur, c’est un véritable festival de couleurs et de parfums, tous savoureux. Le sandwich curcuma falafels Le Fournil d'Or offre un bel exemple de cuisine traditionnelle : falafels, tagliatelles de légumes, houmous de betterave et pousses d'épinards se mélangent à merveille pour faire de chaque bouchée un vrai délice.\\n\\nConvient aux régimes végétariens et végan.",
+    "image": "assets/image/dejeuner/Le sandwich curcuma falafels.webp",
     "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Ce sandwich est composé de pain au curcuma et sésame noir, falafels, houmous de betterave, carottes, courgettes, radis et pousses d'épinards.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1405,13 +1405,13 @@
 
   {
     "id": 44,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich grainé poulet",
+    "info": "",
+    "description": "Le sandwich poulet grainé, c’est un pain très généreux en graines avec un mélange de graines de courge, tournesol, millet, lin, sésame. Ces graines apportent à la croûte et à la mie du pain un jeu de textures vraiment intéressant : du croustillant, des pointes de saveurs et une vraie touche authentique et traditionnelle. Pour l’intérieur du poulet grainé, c’est tout simple : que du bon et du frais ! Vous trouverez donc des tranches de poulet intercalées avec des rondelles de tomates bien fraîches, le tout sur un lit de salade verte. Le petit plus de ce sandwich ? Ce n’est pas du beurre qui est tartiné sur le pain, mais une sauce relevée avec de la mayonnaise allégée légèrement moutardée, ce qui lui donne un côté peps plein de personnalité.",
+    "image": "assets/image/dejeuner/Le sandwich graine poulet.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Un pain grainé composé de poulet, mayonnaise allégée, moutarde, salade, et tomates.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1438,13 +1438,13 @@
 
   {
     "id": 45,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich mixte",
+    "info": "",
+    "description": "Le mixte, c’est le sandwich traditionnel par excellence, le célèbre jambon-beurre (et fromage) typiquement français confectionné avec de la baguette blanche tartinée de beurre et garnie d’une tranche de jambon blanc et d’une tranche d’emmental. Il est tout simple, ce sandwich, mais on aime croquer dans le croustillant de la croûte de la baguette pour découvrir ensuite la mie souple et aérienne et la garniture légère. Facile à emporter, le sandwich mixte se déguste partout et devient rapidement un plat emblématique pour tous.",
+    "image": "assets/image/dejeuner/Le sandwich mixte.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le sandwich mixte se trouve dans une baguette composée de beurre, jambon de qualité supérieure découenné et dégraissé, et d'emmental.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1471,13 +1471,13 @@
 
   {
     "id": 46,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich montagnard",
+    "info": "",
+    "description": "Le montagnard est un sandwich généreux qui rassemble les saveurs corsées des sommets. Ce sandwich est composé d’un pain au pavot qui lui donne une personnalité corsée. Il offre à l’intérieur une explosion de parfums :  des tranches fines de Coppa tendre à la saveur envoutante et des lamelles de comté AOP, un fromage aux arômes riches et parfumés, très aromatiques. La tartinade d’olives noires réhausse encore le pouvoir gustatif de ce sandwich, qui comme un vin de qualité, reste longtemps en bouche pour un plaisir incomparable.",
+    "image": "assets/image/dejeuner/Le sandwich le montagnard.webp" ,
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Un sandwich élaboré à partir d'une baguette au pavot composée de tomates, coppa, tartinade olive noire, comté AOP et salade.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1504,13 +1504,13 @@
 
   {
     "id": 47,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich parisien",
+    "info": "",
+    "description": "Le sandwich jambon ou sandwich parisien est une valeur sûre et le préféré des Français. On aime en effet sa simplicité qui permet de mieux déguster ses ingrédients. La baguette du sandwich jambon est croustillante à point, avec une mie aérienne légère. Elle est tartinée de beurre et garnie d’une tranche de jambon. Le sandwich jambon est vraiment pratique à déguster, que ce soit pour la pause déjeuner d’une longue journée de travail, en pique-nique avec des amis ou pour casser la croute lors d’un voyage en famille. Une expression qui vient directement des sandwichs : au 19e, les ouvriers n’avaient pas le temps de rentrer déjeuner chez eux et emportaient des pains garnis pour leur pause repas. À l’époque, le pain était moins frais que celui du Fournil d'Or et ils devaient littéralement casser la croute pour croquer dans leur sandwich .",
+    "image": "assets/image/dejeuner/Le sandwich le parisien.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le Parisien est élaboré à partir d'une baguette composée de jambon et de beurre.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1537,13 +1537,13 @@
 
   {
     "id": 48,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich polka olives jambon cru",
+    "info": "",
+    "description": "Ce sandwich se compose de pain aux 2 olives, jambon cru, tomates, salade et tartinade nature.",
+    "image": "assets/image/dejeuner/Le sandwich polka olives jambon cru.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1570,13 +1570,13 @@
 
   {
     "id": 49,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le beignet aux pommes",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "",
+    "image": "assets/image/petit-dejeuner/beignet-pommes.webp"  ,
     "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1603,13 +1603,13 @@
 
   {
     "id": 50,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich poulet crudité",
+    "info": "",
+    "description": "Le sandwich poulet crudités, c’est un sandwich français incontournable, simple, gourmand et léger à la fois. Dans une baguette nature à la croute croustillante, on trouve en effet tous les bons ingrédients d’un repas sain : du poulet, de la mayonnaise allégée, ainsi que la touche fraîcheur et nature indispensable : de la salade verte et croquante et de bonnes tomates. L’ensemble est juste parfait et c’est avec plaisir et gourmandise – et sans une once de culpabilité - que vous pourrez déguster ce sandwich poulet crudités.",
+    "image": "assets/image/dejeuner/Le sandwich poulet crudite.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1636,13 +1636,13 @@
 
   {
     "id": 51,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich savoureux",
+    "info": "",
+    "description": "Être croustillant et fondant à la fois, c’est ce que réussit le sandwich savoureux qui porte bien son nom ! Une baguette très croustillante cache une garniture généreuse et relevée : de la rosette finement salée coupée en fines lamelles, intercalées avec des cornichons.\\nImaginez l’expérience gustative : la croûte du pain et le cornichon croquent sous la dent tandis que la rosette fond délicieusement, tout comme le beurre tartiné sur les tranches de pain. Quant aux saveurs, c’est aussi un mariage parfait : le cornichon est relevé avec une acidité qui réveille les papilles, adoucie par l’onctuosité de la rosette.\\n Le savoureux, c’est un grand classique du sandwich, et surtout, comme pour le sandwich mixte jambon, beurre, fromage, une certaine forme de respect de la tradition gastronomique française.\\n\\n Le sandwich savoureux est fabriqué à partir de :\\n- Farine française\\n- Beurre doux allégé\\n- Rosette",
+    "image": "assets/image/dejeuner/Le sandwich poulet crudite.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le sandwich savoureux est élaboré à partir d'une baguette composée de beurre, rosettes, et cornichons.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1669,13 +1669,13 @@
 
   {
     "id": 52,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le sandwich sésame camembert noix",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "Pas besoin de porter le béret pour déguster ce sandwich qui met pourtant en valeur un des emblèmes de la gastronomie française : le camembert !\\n C’est une baguette au sésame, croustillante et légèrement dorée, qui renferme ce trésor français : sur la mie, du beurre et des tranches d’un bon camembert crémeux et délicatement relevé, le tout agrémenté de feuilles de salade verte bien fraîche.Croquez et vous constaterez : le moelleux du camembert s'harmonise parfaitement avec le croquant de la croute de baguette, des noix, et des graines de sésame. La salade ajoute la touche nature à ce sandwich qui fleure bon le terroir. Lord Sandwich aurait sans aucun doute adoré cette version très française !",
+    "image": "assets/image/dejeuner/Le sandwich sésame camembert noix.webp",
     "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Un sandwich élaboré à partir d'une baguette aux graines de sésame composée de beurre, camembert, et des feuilles de salade.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1702,13 +1702,13 @@
 
   {
     "id": 53,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le sandwich tomate mozzarella",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "C’est le sud et tous ses parfums généreux que propose ce sandwich tomate mozzarella qui sent bon l’été ! Il ne manque que le chant des cigales ! Les rondelles de tomates fraîches alternent avec des tranches de mozzarella moelleuses, sur un lit de salade verte, le tout parsemé d’un filet d’huile d’olive. Le pain de ce sandwich est élaboré à partir d’un pain polka flamand aux 2 olives pour encore plus de saveurs méditerranéennes, et tartiné généreusement d’une sauce pesto verte.\\n La mozzarella est l’un des fromages préférés des Italiens, aussi délicieuse dégustée nature que cuisinée, et crue que cuite. Elle apporte une saveur douce et acidulée au sandwich ainsi qu’une onctuosité gourmande en contraste avec la croûte croustillante du pain.\\n\\n Convient aux régimes végétariens",
+    "image": "assets/image/dejeuner/Le sandwich tomate mozzarella.webp",
     "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Ce sandwich est élaboré à partir d'un pain polka flamand aux 2 olives. Il est composé d'un mélange pesto huile, de rondelles de tomate et de mozzarella, et de feuilles de salade.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1735,13 +1735,13 @@
 
   {
     "id": 54,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich viennois mixte crudités",
+    "info": "",
+    "description": "Un pain moelleux comme un nuage, c’est déjà le gage d’un sandwich qu’on va déguster avec plaisir, même si c’est pour un encas rapide entre deux réunions ! Et quand vous aurez découvert la tartinade nature tout en légèreté qui garnit le pain tout frais de ce sandwich viennois, ainsi que ses ingrédients simples et bons, vous serez séduit.\\n Car si le sandwich viennois aime la tradition, il n’en est pas moins délicieux. À l’intérieur, c’est toute la France qui vous attend : du jambon, de l’emmental, et un peu de salade et de tranches de tomates pour un effet fraîcheur garanti.\\n Aussi frais qu’une salade, le sandwich viennois cale les petites faims avec sa garniture généreuse.",
+    "image": "assets/image/dejeuner/Le sandwich viennois mixte crudités.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Un pain viennois compsoé de jambon blanc de qualité supérieur, d'emmental, de salade et de la fraicheur d’une tartinade nature.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1768,13 +1768,13 @@
 
   {
     "id": 55,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich brioché grainé poulet avocat",
+    "info": "",
+    "description": "Ce sandwich est composé de pain brioché grainé, poulet grainé, avocat, tartinade citron ciboulette, pousses d'épinards et parmesan.",
+    "image": "assets/image/dejeuner/Le sandwich brioche graine poulet avocat.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Un sandwich composé d'aiguillettes de poulet panées grainées, d'avocat, pousses d'épinard, parmesan, le tout, sur une tartinade citron ciboulette.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1801,13 +1801,13 @@
 
   {
     "id": 56,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich chaud jambon fromage",
+    "info": "",
+    "description": "",
+    "image": "assets/image/dejeuner/Le sandwich chaud jambon fromage.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1834,13 +1834,13 @@
 
   {
     "id": 57,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
-    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
+    "name": "Le sandwich chaud poulet béchamel",
+    "info": "",
+    "description": "",
+    "image": "assets/image/dejeuner/Le sandwich chaud poulet béchamel.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1867,12 +1867,13 @@
 
   {
     "id": 58,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "Le sandwich chaud poulet champignon",
+    "info": "",
+    "description": "",
+    "image": "assets/image/dejeuner/Le sandwich chaud poulet champignon.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1899,12 +1900,13 @@
 
   {
     "id": 59,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "Le sandwich chaud poulet ciboulettte",
+    "info": "",
+    "description": "",
+    "image": "assets/image/dejeuner/Le sandwich chaud poulet ciboulette.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1931,12 +1933,13 @@
 
   {
     "id": 60,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "Le sandwich chaud raclette bacon",
+    "info": "",
+    "description": "Un sandwich chaud idéal pour les départs à la montagne!",
+    "image": "assets/image/dejeuner/Le sandwich chaud raclette bacon.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Un sandwich composé de bacon fumé, fromage à raclette, tomate, oignons caramélisés et fromage blanc.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1963,12 +1966,13 @@
 
   {
     "id": 61,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "Le sandwich chaud saucisses",
+    "info": "",
+    "description": "Les Américains ont inventé le hot dog, les Français craquent plutôt pour le sandwich chaud saucisse ! Ce sandwich est constitué d’un pain nature à mie blanche, bien croustillant, qui est garni d’une saucisse de volaille.\\n Pour relever le tout et ajouter encore plus de touche frenchie, on y ajoute de la moutarde à l’ancienne, une bonne béchamel onctueuse, de la crème et du fromage sur le dessus, qui va griller lorsque l’on fait chauffer le sandwich. On obtient un sandwich gourmand, très moelleux dès lors qu’on a croqué la croute du pain.\\n Ce sandwich chaud est consistant et donc parfait pour les grandes faims, qu’il soit dégusté seul sur le pouce ou accompagné d’une salade.",
+    "image": "assets/image/dejeuner/Le sandwich chaud saucisses.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -1995,12 +1999,13 @@
 
   {
     "id": 62,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le sandwich chaud tomate mozzarella",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "",
+    "image": "assets/image/dejeuner/Le sandwich chaud tomate mozzarella.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2027,12 +2032,13 @@
 
   {
     "id": 63,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le benoîton au fromage",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "Au fromage, ce petit bâtonnet de pain comblera toutes les petites faims à tendances salées.",
+    "image": "assets/image/dejeuner/Le benoîton au fromage.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le benoîton est composé de farine origine France, d'emmental râpé, de levure, et de sel.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2059,12 +2065,13 @@
 
   {
     "id": 64,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "Le benoîton oignons lardons",
+    "info": "",
+    "description": "",
+    "image": "assets/image/dejeuner/Le benoîton oignons lardons.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2091,12 +2098,13 @@
 
   {
     "id": 65,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le benoîton fromage olives",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "",
+    "image": "assets/image/dejeuner/Le benoîton fromage olives.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2123,12 +2131,13 @@
 
   {
     "id": 66,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "Le benoîton coppa parmesan",
+    "info": "",
+    "description": "",
+    "image": "assets/image/dejeuner/Le benoîton coppa parmesan.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2155,12 +2164,13 @@
 
   {
     "id": 67,
-    "name": "Le panini chèvre mozzarella",
+    "name": "La torsade apéritive olive fromage",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "Une torsade gourmande et savoureuse garnie d'olives et de fromage idéale pour les apéritifs entre amis !",
+    "image": "assets/image/dejeuner/La torsade apéritive olive fromage.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2187,12 +2197,13 @@
 
   {
     "id": 68,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "La torsade apéritive coppa parmesan",
+    "info": "",
+    "description": "Une torsade gourmande et savoureuse garnie de coppa et de parmesan idéale pour les apéritifs entre amis !",
+    "image": "assets/image/dejeuner/La torsade apéritive coppa parmesan.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2219,12 +2230,13 @@
 
   {
     "id": 69,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "La torsade apéritive oignons lardons",
+    "info": "",
+    "description": "Une torsade gourmande et savoureuse garnie d'oignons, de lardons et de fromage, idéale pour les apéritifs entre amis !",
+    "image": "assets/image/dejeuner/La torsade apéritive oignons lardons.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2251,12 +2263,13 @@
 
   {
     "id": 70,
-    "name": "Le panini chèvre mozzarella",
+    "name": "La torsade aux 2 fromages",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "",
+    "image": "assets/image/dejeuner/La torsade aux 2 fromages.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2283,12 +2296,13 @@
 
   {
     "id": 71,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le bretzel natureLe bretzel nature",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "Typiquement alsacien, ce produit régional est aujourd'hui répandu dans toutes les régions de France.",
+    "image": "assets/image/dejeuner/Le bretzel nature.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le Bretzel est composé de farine de blé, huile de colza, levure et sel.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2315,12 +2329,13 @@
 
   {
     "id": 72,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le bretzel nature salé",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "Typiquement alsacien, ce produit régional est aujourd'hui répandu dans toutes les régions de France..",
+    "image": "assets/image/dejeuner/Le bretzel nature salé.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le Bretzel est composé de farine de blé, huile de colza, levure et sel.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2347,12 +2362,13 @@
 
   {
     "id": 73,
-    "name": "Le panini chèvre mozzarella",
+    "name": "Le bretzel gratiné au fromage",
     "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "description": "Un pain typique que l'on soupoudre de fromage avant la cuisson. Idéal pour les gourmands friands de pauses salées.",
+    "image": "assets/image/dejeuner/Le bretzel gratiné au fromage.webp",
+    "image2": "assets/icons/VEGETARIEN_ENGB.webp",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le Bretzel est composé de farine de blé, huile de colza, levure et sel et fromages.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2379,12 +2395,13 @@
 
   {
     "id": 74,
-    "name": "Le panini chèvre mozzarella",
-    "info": "Végétarien",
-    "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
-    "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "name": "Le bretzel lardon gratiné",
+    "info": "",
+    "description": "Un pain typique que l'on soupoudre de fromage et de lardon avant la cuisson. Idéal pour les gourmands friands de pauses salées.",
+    "image": "assets/image/dejeuner/Le bretzel lardon gratiné.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
-      "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
+      "description": "Le Bretzel est composé de farine de blé, huile de colza, levure et sel, fromages et de lardons.",
       "values": [
         ["Proportions", "&emsp;&emsp;Pour 100.00 g", "&emsp;&emsp;Par portion"],
         [
@@ -2415,6 +2432,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2447,6 +2465,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2479,6 +2498,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2511,6 +2531,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2543,6 +2564,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2575,6 +2597,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2607,6 +2630,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2639,6 +2663,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2671,6 +2696,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2703,6 +2729,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2735,6 +2762,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2767,6 +2795,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2799,6 +2828,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2831,6 +2861,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2863,6 +2894,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2895,6 +2927,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2927,6 +2960,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2959,6 +2993,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -2991,6 +3026,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3023,6 +3059,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3055,6 +3092,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3087,6 +3125,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3119,6 +3158,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3151,6 +3191,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3183,6 +3224,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3215,6 +3257,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3247,6 +3290,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3279,6 +3323,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3311,6 +3356,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3343,6 +3389,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3375,6 +3422,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3407,6 +3455,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3439,6 +3488,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3471,6 +3521,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3503,6 +3554,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3535,6 +3587,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3567,6 +3620,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3599,6 +3653,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3631,6 +3686,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3663,6 +3719,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3695,6 +3752,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
@@ -3727,6 +3785,7 @@
     "info": "Végétarien",
     "description": "Le panini chèvre mozzarella est un sandwich à base de pain grillé, de fromage de chèvre et de mozzarella.",
     "image": "assets/image/petit-dejeuner/beignet-pommes.webp",
+    "image2": "assets/icons/non-vegetarien.png",
     "composition": {
       "description": "Ce panini se compose d'un pain nature, de tartinade nature, de chèvre et de mozzarella.",
       "values": [
